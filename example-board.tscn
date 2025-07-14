@@ -1,7 +1,7 @@
 [gd_scene load_steps=13 format=3 uid="uid://bf1w5324abula"]
 
-[ext_resource type="Texture2D" uid="uid://g5ufhgwh3myp" path="res://Assets/Players/O-small.png" id="1_a0xhr"]
-[ext_resource type="Texture2D" uid="uid://br1uhqtlix5km" path="res://Assets/Players/X-small.png" id="2_fewxg"]
+[ext_resource type="Texture2D" uid="uid://g5ufhgwh3myp" path="res://Assets/Players/o.png" id="1_a0xhr"]
+[ext_resource type="Texture2D" uid="uid://br1uhqtlix5km" path="res://Assets/Players/x.png" id="2_fewxg"]
 [ext_resource type="Texture2D" uid="uid://dd8l5dfq3fmrd" path="res://Assets/Background/floor-top-left.png" id="3_t01rm"]
 [ext_resource type="Texture2D" uid="uid://r2tbp3w2ck38" path="res://Assets/Background/floor-top-middle.png" id="4_oixcc"]
 [ext_resource type="Texture2D" uid="uid://dmkt1eweoq4tk" path="res://Assets/Background/woodchump-small.png" id="4_p7pqg"]
