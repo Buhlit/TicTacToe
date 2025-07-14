@@ -71,7 +71,7 @@ Follow these instructions to set up and run the Tic Tac Toe game in Godot.
 
 ## Art Assets
 
-The `art/` folder contains placeholder X and O sprites (64×64 px). To replace or improve the art:
+The `assets/` folder contains placeholder X and O sprites (64×64 px). To replace or improve the art:
 
 1. Create or edit your sprite in your preferred graphics editor.
 2. Export as PNG (64×64 px) with transparency.
