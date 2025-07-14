@@ -75,8 +75,13 @@ The `art/` folder contains placeholder X and O sprites (64×64 px). To replace o
 
 1. Create or edit your sprite in your preferred graphics editor.
 2. Export as PNG (64×64 px) with transparency.
-3. Replace `x.png` and/or `o.png` in the `art/` folder.
+3. Replace `x.png` and/or `o.png` in the `assets/players/` folder.
 4. In Godot, reimport the textures (right-click → **Reimport**).
+
+
+Example board:
+
+![Local image](./example-board.png)
 
 ---
 
