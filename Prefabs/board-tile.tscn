@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://warsyfl7roam"]
 
 [ext_resource type="Texture2D" uid="uid://c6glx44r43q4a" path="res://Assets/Background/floor-export.png" id="1_6sr6s"]
-[ext_resource type="Script" path="res://Scripts/BoardTile.gd" id="2_cpiax"]
+[ext_resource type="Script" uid="uid://cukuid1ybdxm0" path="res://Scripts/BoardTile.gd" id="2_cpiax"]
 
 [node name="BoardTile" type="Node2D"]
 script = ExtResource("2_cpiax")
