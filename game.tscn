@@ -1,0 +1,82 @@
+[gd_scene load_steps=3 format=3 uid="uid://fj5lghpxeaad"]
+
+[ext_resource type="Texture2D" uid="uid://dmkt1eweoq4tk" path="res://Assets/Background/woodchump-small.png" id="1_m78pg"]
+[ext_resource type="PackedScene" uid="uid://warsyfl7roam" path="res://Prefabs/board-tile.tscn" id="2_abu17"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Background" type="ColorRect" parent="."]
+offset_right = 320.0
+offset_bottom = 320.0
+color = Color(0.388235, 0.639216, 0.458824, 1)
+
+[node name="Decorations" type="Node2D" parent="."]
+
+[node name="Woodchump" type="Sprite2D" parent="Decorations"]
+position = Vector2(32, 32)
+texture = ExtResource("1_m78pg")
+
+[node name="Woodchump2" type="Sprite2D" parent="Decorations"]
+position = Vector2(32, 96)
+texture = ExtResource("1_m78pg")
+
+[node name="Woodchump3" type="Sprite2D" parent="Decorations"]
+position = Vector2(32, 160)
+texture = ExtResource("1_m78pg")
+
+[node name="Woodchump4" type="Sprite2D" parent="Decorations"]
+position = Vector2(32, 224)
+texture = ExtResource("1_m78pg")
+
+[node name="Woodchump5" type="Sprite2D" parent="Decorations"]
+position = Vector2(32, 288)
+texture = ExtResource("1_m78pg")
+
+[node name="Woodchump6" type="Sprite2D" parent="Decorations"]
+position = Vector2(96, 288)
+texture = ExtResource("1_m78pg")
+
+[node name="Woodchump7" type="Sprite2D" parent="Decorations"]
+position = Vector2(160, 288)
+texture = ExtResource("1_m78pg")
+
+[node name="Woodchump8" type="Sprite2D" parent="Decorations"]
+position = Vector2(96, 32)
+texture = ExtResource("1_m78pg")
+
+[node name="Woodchump9" type="Sprite2D" parent="Decorations"]
+position = Vector2(160, 32)
+texture = ExtResource("1_m78pg")
+
+[node name="Woodchump10" type="Sprite2D" parent="Decorations"]
+position = Vector2(224, 32)
+texture = ExtResource("1_m78pg")
+
+[node name="Woodchump11" type="Sprite2D" parent="Decorations"]
+position = Vector2(288, 32)
+texture = ExtResource("1_m78pg")
+
+[node name="Woodchump12" type="Sprite2D" parent="Decorations"]
+position = Vector2(288, 96)
+texture = ExtResource("1_m78pg")
+
+[node name="Woodchump13" type="Sprite2D" parent="Decorations"]
+position = Vector2(288, 160)
+texture = ExtResource("1_m78pg")
+
+[node name="Woodchump14" type="Sprite2D" parent="Decorations"]
+position = Vector2(288, 224)
+texture = ExtResource("1_m78pg")
+
+[node name="Woodchump15" type="Sprite2D" parent="Decorations"]
+position = Vector2(288, 288)
+texture = ExtResource("1_m78pg")
+
+[node name="Woodchump16" type="Sprite2D" parent="Decorations"]
+position = Vector2(224, 288)
+texture = ExtResource("1_m78pg")
+
+[node name="GameBoard" type="Node2D" parent="."]
+
+[node name="BoardTile" parent="GameBoard" instance=ExtResource("2_abu17")]
+position = Vector2(96, 96)

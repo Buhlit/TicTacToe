@@ -36,8 +36,8 @@ Follow these instructions to set up and run the Tic Tac Toe game in Godot.
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/tic-tac-toe-godot.git
-   cd tic-tac-toe-godot
+   git clone https://github.com/Buhlit/TicTacToe.git
+   cd tictactoe
    ```
 
 2. **Open the project** in Godot:
